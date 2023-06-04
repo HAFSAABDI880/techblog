@@ -14,7 +14,7 @@ const SequelizeStore = connectSessionSequelize(session.Store);
 const PORT = process.env.PORT || 4000;
 
 const sessionOptions = {
-  secret: process.env.SESSION_SECRET,
+  secret:'Super secret secret',
   resave: false,
   saveUninitialized: false,
   cookies: {
